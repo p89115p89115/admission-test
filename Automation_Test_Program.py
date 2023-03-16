@@ -1,11 +1,3 @@
-<html>
-  <head>
-    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
-    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
-</head>
-  
-<body>
-    <py-script>
 
 print("admission-test:")
 # Q1-1
@@ -69,6 +61,3 @@ input2 = [
 print("input2 = ",input2);
 print("group_by_key(input2): ",group_by_key(input2))
 
-    </py-script>
-</body>
-</html>
