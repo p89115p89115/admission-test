@@ -42,8 +42,7 @@ def count(input):
     if char in counts:
       counts[char] += 1
     else:
-      counts[char] = 1
-      
+      counts[char] = 1  
   return counts
 
 input1 = ['a', 'b', 'c', 'a', 'c', 'a', 'x']
