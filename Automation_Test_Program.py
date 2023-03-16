@@ -6,9 +6,8 @@
   
 <body>
     <py-script>
-print("admission-test:")
 
-        
+print("admission-test:")
 # Q1-1
 print("# Q1-1")
 def find_max(numbers):
@@ -39,17 +38,16 @@ print("# Q2-1")
 def count(input):
   counts = {}
   for char in input:
-  print("char")
-  if char in counts:
-    counts[char] += 1
-  else:
-    counts[char] = 1
-  print("char")
-return counts.items()
+    #print(char)
+    if char in counts:
+      counts[char] += 1
+    else:
+      counts[char] = 1
+      
+  return counts
 
 input1 = ['a', 'b', 'c', 'a', 'c', 'a', 'x']
 print("input1 = ['a', 'b', 'c', 'a', 'c', 'a', 'x']");
-print(input1);
 print("count(input1): ",count(input1))
 
 # Q2-2
@@ -62,23 +60,17 @@ def group_by_key(input):
                 sums[key] += value
             else:
                 sums[key] = value
-return sums        
-
+    return sums
 input2 = [
-{'key': 'a', 'value': 3},
-{'key': 'b', 'value': 1},
-{'key': 'c', 'value': 2},
-{'key': 'a', 'value': 3},
-{'key': 'c', 'value': 5}
+{'a': 3},
+{'b': 1},
+{'c': 2},
+{'a': 3},
+{'c': 5}
 ]
-print("input2 = [",
-"{'key': 'a', 'value': 3},",
-"{'key': 'b', 'value': 1},",
-"{'key': 'c', 'value': 2},",
-"{'key': 'a', 'value': 3},",
-"{'key': 'c', 'value': 5}",
-"]");
+print("input2 = ",input2);
 print("group_by_key(input2): ",group_by_key(input2))
+
     </py-script>
 </body>
 </html>
