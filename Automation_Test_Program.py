@@ -39,11 +39,12 @@ print("# Q2-1")
 def count(input):
   counts = {}
   for char in input:
-    if char in counts:
-      counts[char] += 1
-    else:
-      counts[char] = 1
-    print("char")
+  print("char")
+  if char in counts:
+    counts[char] += 1
+  else:
+    counts[char] = 1
+  print("char")
 return counts.items()
 
 input1 = ['a', 'b', 'c', 'a', 'c', 'a', 'x']
