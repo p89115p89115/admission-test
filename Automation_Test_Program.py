@@ -49,6 +49,7 @@ return counts.items()
 
 input1 = ['a', 'b', 'c', 'a', 'c', 'a', 'x']
 print("input1 = ['a', 'b', 'c', 'a', 'c', 'a', 'x']");
+print(input1);
 print("count(input1): ",count(input1))
 
 # Q2-2
