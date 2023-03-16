@@ -38,7 +38,6 @@ print("# Q2-1")
 def count(input):
   counts = {}
   for char in input:
-    #print(char)
     if char in counts:
       counts[char] += 1
     else:
@@ -52,14 +51,14 @@ print("count(input1): ",count(input1))
 # Q2-2
 print("# Q2-2")
 def group_by_key(input):
-    sums = {}
-    for d in input:
-        for key, value in d.items():
-            if key in sums:
-                sums[key] += value
-            else:
-                sums[key] = value
-    return sums
+  sums = {}
+  for d in input:
+    for key, value in d.items():
+      if key in sums:
+        sums[key] += value
+      else:
+        sums[key] = value
+  return sums
 input2 = [
 {'a': 3},
 {'b': 1},
